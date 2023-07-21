@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>精灵图动画</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<canvas id="canvas1"></canvas>
+		<div class="controls">
+			<label for="animations">选择动作</label>
+			<select name="animations" id="animations">
+				<option value="idle">空闲</option>
+				<option value="jump">跳跃</option>
+				<option value="fall">掉落</option>
+				<option value="run">跑步</option>
+				<option value="dizzy">头晕</option>
+				<option value="sit">站立</option>
+				<option value="roll">旋转</option>
+				<option value="bite">撕咬</option>
+				<option value="ko">被击倒</option>
+				<option value="getHit">被击中</option>
+			</select>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
