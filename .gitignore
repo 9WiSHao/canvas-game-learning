@@ -1,0 +1,3 @@
+# 最近转webstorm了，git排除 .idea 文件夹
+
+.idea/
