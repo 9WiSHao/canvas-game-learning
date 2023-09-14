@@ -214,7 +214,6 @@ function animate(timestamp = 0) {
 	ravens = ravens.filter((obj) => !obj.markedForDeletion);
 	explosions = explosions.filter((obj) => !obj.markedForDeletion);
 	particles = particles.filter((obj) => !obj.markedForDeletion);
-	console.log(particles.length);
 	if (!gameOver) {
 		requestAnimationFrame(animate);
 	} else {
